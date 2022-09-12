@@ -20,7 +20,7 @@ or use the custom configuration with
 
 ```
 # Custom OpenCore Image
-rm -f OpenCore.qcow2.custom; sudo ./opencore-image-ng.sh --cfg config.plist.custom --img OpenCore.qcow2.custom
+rm -f OpenCore.qcow2.custom; sudo ./opencore-image-ng.sh --cfg config.custom.plist --img OpenCore.qcow2.custom
 ```
 
 Note: https://github.com/thenickdude/KVM-Opencore is one of the best resources
