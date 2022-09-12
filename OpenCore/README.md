@@ -16,6 +16,13 @@ results. Guestfish output results may vary across platforms.
 rm -f OpenCore.qcow2; sudo ./opencore-image-ng.sh --cfg config.plist --img OpenCore.qcow2
 ```
 
+or use the custom configuration with
+
+```
+# Custom OpenCore Image
+rm -f OpenCore.qcow2.custom; sudo ./opencore-image-ng.sh --cfg config.plist.custom --img OpenCore.qcow2.custom
+```
+
 Note: https://github.com/thenickdude/KVM-Opencore is one of the best resources
 for customizing `OpenCore.qcow2`. Thanks Nick! :)
 
